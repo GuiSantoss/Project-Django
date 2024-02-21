@@ -4,7 +4,6 @@ from .test_recipe_base import RecipeTestBase
 from unittest.mock import patch
 
 
-
 class RecipeHomeViewTest(RecipeTestBase):
     def test_recipe_home_view_function_is_correct(self):
         view = resolve(reverse('recipes:home'))
